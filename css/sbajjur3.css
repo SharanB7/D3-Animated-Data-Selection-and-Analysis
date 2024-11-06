@@ -1,0 +1,64 @@
+.myContainer {
+    margin: auto;
+    width: 1450px;
+    font-family: Arial, sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.drop-down, .button {
+    height: 35px;
+    width: 100%;
+    border-right: 3px solid transparent;
+    border: 1px solid lightgray;
+    padding: 3px;
+    background-color: white;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h1 {
+    padding-top: 10px;
+}
+
+#control_panel {
+    width: 1440px;
+    height: 128px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#scatter_plot {
+    width: 1440px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#box_plot {
+    width: 1440px;
+    padding: 10px;
+    margin: 5px;
+}
+
+svg {
+    width: 1418px;
+    height: 620px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+#control_panel, #scatter_plot, #box_plot {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
